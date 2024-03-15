@@ -1,0 +1,4 @@
+#user,password,isadmin,maxtime,cooldown,expiry
+#Password must be SHA-256 hashed. This can be done here https://emn178.github.io/online-tools/sha256.html
+#Default login is root root
+root,4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2,1,9999,0,12/30/3000

